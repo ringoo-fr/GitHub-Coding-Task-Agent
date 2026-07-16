@@ -1,0 +1,21 @@
+{
+  "name": "github-task-agent",
+  "version": "1.0.0",
+  "description": "Autonomous agent that picks up GitHub issues labeled 'agent-task' and attempts to resolve them via draft PRs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "agent": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@octokit/rest": "^21.0.0",
+    "dotenv": "^16.4.0",
+    "glob": "^11.0.0",
+    "simple-git": "^3.27.0",
+    "yargs": "^17.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

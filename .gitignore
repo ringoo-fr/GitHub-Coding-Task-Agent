@@ -1,0 +1,21 @@
+# ── Secrets ───────────────────────────────────────────────
+.env
+*.local
+
+# ── Dependencies ──────────────────────────────────────────
+node_modules/
+
+# ── Runtime output ────────────────────────────────────────
+logs/*
+!logs/.gitkeep
+workspace/*
+!workspace/.gitkeep
+
+# ── OS / editor noise ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
